@@ -1,0 +1,25 @@
+project:
+  title: "ciafa-sw"
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "CIAFA"
+  navbar:
+    left:
+      - text: ideas
+        file: ideas.qmd
+      - text: research
+        file: research/index.qmd
+    right:
+      - icon: link
+        text: AFA
+        href: https://www.academiafa.edu.pt
+      - icon: github
+        text: Github
+        href: https://github.com/ciafa-sw
+format:
+  html:
+    theme: simplex
+    css: styles.css

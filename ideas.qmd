@@ -1,0 +1,39 @@
+---
+title: "Ideias"
+#subtitle: Research engineer
+#image: profile.svg
+page-layout: full
+---
+
+# Projectos
+
+- Morphing
+- sistema de vigilância autónomo com base em UAS e visão computacional 
+  - Docking station (PILAV, entregue 23/24 S1) Proposta escrita e atribuida 
+  - Detection [Prosta escrita, sem alunos ]
+  - Navigation [Prosta escrita, sem alunos ]
+- Shiping container survey with autonomous UAVs 
+  - SLAM & container detection (TODO ENGEL )
+  - Path planning, with energy minimization and specific sensor constraints (TODO ENGEL? Orientador externo )
+- AntiUAS e AntiAntiUAS 
+  - Comparative analysis of AntiUAS systems (EW – jamming, spoofing, cyber; physical – kinectic, laser, nets, ground vs air based; what to do against deadreckoning and vision perception?) TODO PILAV 
+  - Development of printable adversarial examples against common open-source off-the-shelf detection models using aerial imagery for protecting VIPs TODO ENGEL 
+  - Robust UAS protocols against cyber attacks (takeover, etc.) TODO? 
+  - Development of online path planning module for multirotor UAV, to create robust paths against antiUAS systems (kinectic, laser) TODO? 
+  - Use of cognitive radios and or SDR to increase robustness of Communications and defeat antiUAS 
+- FOD 
+  - repeat work with new array of sensors (lidar, ...) TODO 
+  - depth estimation
+- Marker based localization 
+  - repetir c/ alvo móvel, vento, gimbal low-cost (TODO tese de controlo, colaboração externa)
+    - podemos testar a stack actual com alvo móvel e verificar o comportamento do sistema
+  - Criação de área de testes, c/ localização à base de markers e hardware low-cost (percepção e computação) TODO 
+- RL-based autolanding system for low-cost VTOL UAV
+
+# Miniprojectos
+
+- Auto shutdown and boot up of PCs
+  - Raspberry UPS (Hardware)
+  - Dashboard for configuration and control
+
+

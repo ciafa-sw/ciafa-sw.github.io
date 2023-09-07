@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "ciafa-sw.html",
+    "href": "ciafa-sw.html",
+    "title": "ciafa-sw",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "ciafa-sw.html#quarto",
+    "href": "ciafa-sw.html#quarto",
+    "title": "ciafa-sw",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CIAFA",
+    "section": "",
+    "text": "dssd"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Resarch",
+    "section": "",
+    "text": "dssd"
+  },
+  {
+    "objectID": "miniprojects.html",
+    "href": "miniprojects.html",
+    "title": "Ideias",
+    "section": "",
+    "text": "Projectos\n\nMorphing (EPR Coelho)\nsistema de vigilância autónomo com base em UAS e visão computacional\n\nDocking station (PILAV Rêgo 23/24 S1) Proposta escrita e atribuida\nDetection [Prosta escrita, sem alunos ]\nNavigation [Prosta escrita, sem alunos ]\n\nShiping container survey with autonomous UAVs\n\nSLAM & container detection (TODO ENGEL )\nPath planning, with energy minimization and specific sensor constraints (TODO ENGEL? Orientador externo )\n\nAntiUAS e AntiAntiUAS\n\nComparative analysis of AntiUAS systems (EW – jamming, spoofing, cyber; physical – kinectic, laser, nets, ground vs air based; what to do against deadreckoning and vision perception?) TODO PILAV\nDevelopment of printable adversarial examples against common open-source off-the-shelf detection models using aerial imagery for protecting VIPs TODO ENGEL\nRobust UAS protocols against cyber attacks (takeover, etc.) TODO?\nDevelopment of online path planning module for multirotor UAV, to create robust paths against antiUAS systems (kinectic, laser) TODO?\nUse of cognitive radios and or SDR to increase robustness of Communications and defeat antiUAS\n\nFOD\n\nContinuar a tese do Almeida, com array de sensores diferentes TODO\ndepth estimation\n\nMarker based localization\n\nContinuar tese do Rocha, mas com alvo móvel, vento, gimbal low-cost (TODO tese de controlo, colaboração externa)\n\npodemos testar a stack actual com alvo móvel e verificar o comportamento do sistema\n\nCriação de área de testes, c/ localização à base de markers e hardware low-cost (percepção e computação) TODO\n\nRL-based autolanding system for low-cost VTOL UAV\n\n\n\nMiniprojectos\n\nAuto shutdown and boot up of PCs\n\nRaspberry UPS (Hardware)\nDashboard for configuration and control"
+  },
+  {
+    "objectID": "ideas.html",
+    "href": "ideas.html",
+    "title": "Ideias",
+    "section": "",
+    "text": "Projectos\n\nMorphing\nsistema de vigilância autónomo com base em UAS e visão computacional\n\nDocking station (PILAV, entregue 23/24 S1) Proposta escrita e atribuida\nDetection [Prosta escrita, sem alunos ]\nNavigation [Prosta escrita, sem alunos ]\n\nShiping container survey with autonomous UAVs\n\nSLAM & container detection (TODO ENGEL )\nPath planning, with energy minimization and specific sensor constraints (TODO ENGEL? Orientador externo )\n\nAntiUAS e AntiAntiUAS\n\nComparative analysis of AntiUAS systems (EW – jamming, spoofing, cyber; physical – kinectic, laser, nets, ground vs air based; what to do against deadreckoning and vision perception?) TODO PILAV\nDevelopment of printable adversarial examples against common open-source off-the-shelf detection models using aerial imagery for protecting VIPs TODO ENGEL\nRobust UAS protocols against cyber attacks (takeover, etc.) TODO?\nDevelopment of online path planning module for multirotor UAV, to create robust paths against antiUAS systems (kinectic, laser) TODO?\nUse of cognitive radios and or SDR to increase robustness of Communications and defeat antiUAS\n\nFOD\n\nrepeat work with new array of sensors (lidar, …) TODO\ndepth estimation\n\nMarker based localization\n\nrepetir c/ alvo móvel, vento, gimbal low-cost (TODO tese de controlo, colaboração externa)\n\npodemos testar a stack actual com alvo móvel e verificar o comportamento do sistema\n\nCriação de área de testes, c/ localização à base de markers e hardware low-cost (percepção e computação) TODO\n\nRL-based autolanding system for low-cost VTOL UAV\n\n\n\nMiniprojectos\n\nAuto shutdown and boot up of PCs\n\nRaspberry UPS (Hardware)\nDashboard for configuration and control"
+  }
+]

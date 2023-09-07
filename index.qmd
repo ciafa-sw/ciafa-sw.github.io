@@ -1,0 +1,17 @@
+---
+title: "CIAFA"
+#subtitle: Research engineer
+#image: profile.svg
+page-layout: full
+about:
+  template: trestles
+  links:
+    - icon: link
+      text: AFA
+      href: https://www.academiafa.edu.pt
+    - icon: github
+      text: Github
+      href: https://github.com/ciafa-sw
+---
+
+dssd

@@ -1,0 +1,8 @@
+---
+title: "Resarch"
+#subtitle: Research engineer
+#image: profile.svg
+page-layout: full
+---
+
+dssd
