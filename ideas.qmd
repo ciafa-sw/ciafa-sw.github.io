@@ -1,11 +1,9 @@
 ---
 title: "Ideias"
-#subtitle: Research engineer
-#image: profile.svg
 page-layout: full
 ---
 
-# Projectos
+# Projectos/Teses
 
 - Morphing
 - sistema de vigilância autónomo com base em UAS e visão computacional 
@@ -20,20 +18,55 @@ page-layout: full
   - Development of printable adversarial examples against common open-source off-the-shelf detection models using aerial imagery for protecting VIPs TODO ENGEL 
   - Robust UAS protocols against cyber attacks (takeover, etc.) TODO? 
   - Development of online path planning module for multirotor UAV, to create robust paths against antiUAS systems (kinectic, laser) TODO? 
-  - Use of cognitive radios and or SDR to increase robustness of Communications and defeat antiUAS 
-- FOD 
-  - repeat work with new array of sensors (lidar, ...) TODO 
-  - depth estimation
-- Marker based localization 
+  - Use of cognitive radios with SDR to increase robustness of Communications and defeat antiUAS 
+- FOD (followup Almeida) 
+  - [repeat work with new array of sensors](#repeat-work-with-new-array-of-sensors)
+  - [Depth estimation FOD](#depth-estimation-fod)
+- Marker based localization (follow-up J. Rocha)
   - repetir c/ alvo móvel, vento, gimbal low-cost (TODO tese de controlo, colaboração externa)
     - podemos testar a stack actual com alvo móvel e verificar o comportamento do sistema
   - Criação de área de testes, c/ localização à base de markers e hardware low-cost (percepção e computação) TODO 
-- RL-based autolanding system for low-cost VTOL UAV
+- RL-based autolanding controller for low-cost VTOL UAV
+- RL-based controller for tail sitter (tangente R. Rocha)
+- [HMI registo ações manutenção](#hmi-registo-ações-manutenção)
 
 # Miniprojectos
 
 - Auto shutdown and boot up of PCs
   - Raspberry UPS (Hardware)
   - Dashboard for configuration and control
+
+
+
+# repeat work with new array of sensors
+
+- Repetir a recolha de dados do J. Almeida com mais sensores, e.g. estereo, lidar, laser rangefinder, etc.
+- Identificar oportunidades de labeling automático com base em distância a objectos
+- Desenvolvimento de modelos multi-modais
+- Comparar cada modalidade
+
+# Depth estimation FOD
+
+- Com base no dataset construido em [Almeida follow-up](#repeat-work-with-new-array-of-sensors), desenvolver modelos de monocolar depth estimation.
+
+
+# HMI registo ações manutenção
+
+- Do trabalho da tese da M. Fontainha, constatou-se que existe uma grande percentagem de erros no dataset das acções de manutenção.
+- A falta de usabilidade e morosidade do processo são apontados como possíveis fontes do problema.
+- Resumidamente, o processo atual envolve acesso a um computador com rede interna, login no sistema, identificar as peças que sofreram intervenção, indicar o número de horas dispendido e escolher o identificador (de uma lista de algumas centenas) que mais se adequa à intervenção.
+- Foi verificado que de toda esta lista, a distribuição dos identificadores selecionados está altamente enviesada para um pequeno subset dos disponíveis. Foi colocada a hipótese de os mecânicos selecionarem apenas uma das opções deste subset para acelerar o processo, evitando demorar tempo no processo de procura do identificador correcto.
+
+Com este trabalho exploratório pretende-se:
+
+1. comunicar com o "cliente" final (os mecânicos) para descrever o processo actual e identificar os pontos de atrito e o que pode ser melhorado
+2. identificar formas de acelerar a introdução dos dados da acção de manutenção, nomeadamente
+  - alternativas para introdução em computador
+  - como identificar mais rapidamente as peças que sofreram intervenção
+  - como identificar mais rapidamente o identificador correcto (e.g. árvore de decisão)
+
+Trabalho tangente:
+
+- seria possível um pré-registo automático com base em visão computacional?
 
 
