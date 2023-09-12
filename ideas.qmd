@@ -35,6 +35,12 @@ page-layout: full
 - Auto shutdown and boot up of PCs
   - Raspberry UPS (Hardware)
   - Dashboard for configuration and control
+- UGV for UAV landing (connects with Rocha follow-up)
+- Low cost gimbal | RaspiCam | 3d printed | servo/BLDC
+  - https://hackaday.com/2019/08/19/diy-gimbal-for-the-raspberry-pi-camera/
+  - https://thepihut.com/products/pan-tilt-platform-for-official-raspberry-pi-camera-module
+- 
+
 
 
 
