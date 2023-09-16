@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Resarch",
+    "section": "",
+    "text": "dssd"
+  },
+  {
+    "objectID": "ciafa-sw.html",
+    "href": "ciafa-sw.html",
+    "title": "ciafa-sw",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "ciafa-sw.html#quarto",
+    "href": "ciafa-sw.html#quarto",
+    "title": "ciafa-sw",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CIAFA",
+    "section": "",
+    "text": "dssd"
+  },
+  {
+    "objectID": "ideas.html",
+    "href": "ideas.html",
+    "title": "Ideias",
+    "section": "",
+    "text": "Projectos/Teses\n\nMorphing\nsistema de vigilância autónomo com base em UAS e visão computacional\n\nDocking station (PILAV, entregue 23/24 S1) Proposta escrita e atribuida\nDetection [Prosta escrita, sem alunos ]\nNavigation [Prosta escrita, sem alunos ]\n\nShiping container survey with autonomous UAVs\n\nSLAM & container detection (TODO ENGEL )\nPath planning, with energy minimization and specific sensor constraints (TODO ENGEL? Orientador externo )\n\nAntiUAS e AntiAntiUAS\n\nComparative analysis of AntiUAS systems (EW – jamming, spoofing, cyber; physical – kinectic, laser, nets, ground vs air based; what to do against deadreckoning and vision perception?) TODO PILAV\nDevelopment of printable adversarial examples against common open-source off-the-shelf detection models using aerial imagery for protecting VIPs TODO ENGEL\nRobust UAS protocols against cyber attacks (takeover, etc.) TODO?\nDevelopment of online path planning module for multirotor UAV, to create robust paths against antiUAS systems (kinectic, laser) TODO?\nUse of cognitive radios with SDR to increase robustness of Communications and defeat antiUAS\n\nFOD (followup Almeida)\n\nrepeat work with new array of sensors\nDepth estimation FOD\n\nMarker based localization (follow-up J. Rocha)\n\nrepetir c/ alvo móvel, vento, gimbal low-cost (TODO tese de controlo, colaboração externa)\n\npodemos testar a stack actual com alvo móvel e verificar o comportamento do sistema\n\nCriação de área de testes, c/ localização à base de markers e hardware low-cost (percepção e computação) TODO\n\nRL-based autolanding controller for low-cost VTOL UAV\nRL-based controller for tail sitter (tangente R. Rocha)\nHMI registo ações manutenção\n\n\n\nMiniprojectos\n\nAuto shutdown and boot up of PCs\n\nRaspberry UPS (Hardware)\nDashboard for configuration and control\n\n\n\n\nrepeat work with new array of sensors\n\nRepetir a recolha de dados do J. Almeida com mais sensores, e.g. estereo, lidar, laser rangefinder, etc.\nIdentificar oportunidades de labeling automático com base em distância a objectos\nDesenvolvimento de modelos multi-modais\nComparar cada modalidade\n\n\n\nDepth estimation FOD\n\nCom base no dataset construido em Almeida follow-up, desenvolver modelos de monocolar depth estimation.\n\n\n\nHMI registo ações manutenção\n\nDo trabalho da tese da M. Fontainha, constatou-se que existe uma grande percentagem de erros no dataset das acções de manutenção.\nA falta de usabilidade e morosidade do processo são apontados como possíveis fontes do problema.\nResumidamente, o processo atual envolve acesso a um computador com rede interna, login no sistema, identificar as peças que sofreram intervenção, indicar o número de horas dispendido e escolher o identificador (de uma lista de algumas centenas) que mais se adequa à intervenção.\nFoi verificado que de toda esta lista, a distribuição dos identificadores selecionados está altamente enviesada para um pequeno subset dos disponíveis. Foi colocada a hipótese de os mecânicos selecionarem apenas uma das opções deste subset para acelerar o processo, evitando demorar tempo no processo de procura do identificador correcto.\n\nCom este trabalho exploratório pretende-se:\n\ncomunicar com o “cliente” final (os mecânicos) para descrever o processo actual e identificar os pontos de atrito e o que pode ser melhorado\nidentificar formas de acelerar a introdução dos dados da acção de manutenção, nomeadamente\n\n\nalternativas para introdução em computador\ncomo identificar mais rapidamente as peças que sofreram intervenção\ncomo identificar mais rapidamente o identificador correcto (e.g. árvore de decisão)\n\nTrabalho tangente:\n\nseria possível um pré-registo automático com base em visão computacional?"
+  }
+]
