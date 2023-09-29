@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CIAFA - Ideias</title>
+<title>CIAFA - “Os desafios estratégicos para o ensino das ciências militares e de segurança face aos novos contextos tecnológicos e operacionais”</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./ideas.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./ideas.html" rel="" target="">
  <span class="menu-text">ideas</span></a>
   </li>  
   <li class="nav-item">
@@ -111,13 +111,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="segurex23_slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ideias</h1>
+<h1 class="title">“Os desafios estratégicos para o ensino das ciências militares e de segurança face aos novos contextos tecnológicos e operacionais”</h1>
 </div>
 
 
@@ -132,100 +134,42 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="projectosteses" class="level1">
-<h1>Projectos/Teses</h1>
+<section id="domínios-de-operação" class="level1">
+<h1>Domínios de operação</h1>
 <ul>
-<li>Morphing</li>
-<li>sistema de vigilância autónomo com base em UAS e visão computacional
+<li>Pessoas, Cyber, Terra, Ar, Mar, Espaço
 <ul>
-<li>Docking station (PILAV, entregue 23/24 S1) Proposta escrita e atribuida</li>
-<li>Detection [Prosta escrita, sem alunos ]</li>
-<li>Navigation [Prosta escrita, sem alunos ]</li>
+<li>diagrama de Cyber</li>
 </ul></li>
-<li>Shiping container survey with autonomous UAVs
-<ul>
-<li>SLAM &amp; container detection (TODO ENGEL )</li>
-<li>Path planning, with energy minimization and specific sensor constraints (TODO ENGEL? Orientador externo )</li>
-</ul></li>
-<li>AntiUAS e AntiAntiUAS
-<ul>
-<li>Comparative analysis of AntiUAS systems (EW – jamming, spoofing, cyber; physical – kinectic, laser, nets, ground vs air based; what to do against deadreckoning and vision perception?) TODO PILAV</li>
-<li>Development of printable adversarial examples against common open-source off-the-shelf detection models using aerial imagery for protecting VIPs TODO ENGEL</li>
-<li>Robust UAS protocols against cyber attacks (takeover, etc.) TODO?</li>
-<li>Development of online path planning module for multirotor UAV, to create robust paths against antiUAS systems (kinectic, laser) TODO?</li>
-<li>Use of cognitive radios with SDR to increase robustness of Communications and defeat antiUAS</li>
-</ul></li>
-<li>FOD (followup Almeida)
-<ul>
-<li><a href="#repeat-work-with-new-array-of-sensors">repeat work with new array of sensors</a></li>
-<li><a href="#depth-estimation-fod">Depth estimation FOD</a></li>
-</ul></li>
-<li>Marker based localization (follow-up J. Rocha)
-<ul>
-<li>repetir c/ alvo móvel, vento, gimbal low-cost (TODO tese de controlo, colaboração externa)
-<ul>
-<li>podemos testar a stack actual com alvo móvel e verificar o comportamento do sistema</li>
-</ul></li>
-<li>Criação de área de testes, c/ localização à base de markers e hardware low-cost (percepção e computação) TODO</li>
-</ul></li>
-<li>RL-based autolanding controller for low-cost VTOL UAV</li>
-<li>RL-based controller for tail sitter (tangente R. Rocha)</li>
-<li><a href="#hmi-registo-ações-manutenção">HMI registo ações manutenção</a></li>
+<li>contexto para as interações entre domínios</li>
+<li>fluxo de info</li>
 </ul>
 </section>
-<section id="miniprojectos" class="level1">
-<h1>Miniprojectos</h1>
+<section id="dados" class="level1">
+<h1>Dados</h1>
 <ul>
-<li>Auto shutdown and boot up of PCs
+<li>Fontes
 <ul>
-<li>Raspberry UPS (Hardware)</li>
-<li>Dashboard for configuration and control</li>
+<li>space</li>
+<li>cyber</li>
+<li>Autonomous and Unmanned Systems</li>
 </ul></li>
-<li>UGV for UAV landing (connects with Rocha follow-up)</li>
-<li>Low cost gimbal | RaspiCam | 3d printed | servo/BLDC
+<li>Processamento
 <ul>
-<li>https://hackaday.com/2019/08/19/diy-gimbal-for-the-raspberry-pi-camera/</li>
-<li>https://thepihut.com/products/pan-tilt-platform-for-official-raspberry-pi-camera-module</li>
+<li>IA para extração automática de <em>actionable knowledge</em></li>
 </ul></li>
 </ul>
-</section>
-<section id="repeat-work-with-new-array-of-sensors" class="level1">
-<h1>repeat work with new array of sensors</h1>
-<ul>
-<li>Repetir a recolha de dados do J. Almeida com mais sensores, e.g.&nbsp;estereo, lidar, laser rangefinder, etc.</li>
-<li>Identificar oportunidades de labeling automático com base em distância a objectos</li>
-<li>Desenvolvimento de modelos multi-modais</li>
-<li>Comparar cada modalidade</li>
-</ul>
-</section>
-<section id="depth-estimation-fod" class="level1">
-<h1>Depth estimation FOD</h1>
-<ul>
-<li>Com base no dataset construido em <a href="#repeat-work-with-new-array-of-sensors">Almeida follow-up</a>, desenvolver modelos de monocolar depth estimation.</li>
-</ul>
-</section>
-<section id="hmi-registo-ações-manutenção" class="level1">
-<h1>HMI registo ações manutenção</h1>
-<ul>
-<li>Do trabalho da tese da M. Fontainha, constatou-se que existe uma grande percentagem de erros no dataset das acções de manutenção.</li>
-<li>A falta de usabilidade e morosidade do processo são apontados como possíveis fontes do problema.</li>
-<li>Resumidamente, o processo atual envolve acesso a um computador com rede interna, login no sistema, identificar as peças que sofreram intervenção, indicar o número de horas dispendido e escolher o identificador (de uma lista de algumas centenas) que mais se adequa à intervenção.</li>
-<li>Foi verificado que de toda esta lista, a distribuição dos identificadores selecionados está altamente enviesada para um pequeno subset dos disponíveis. Foi colocada a hipótese de os mecânicos selecionarem apenas uma das opções deste subset para acelerar o processo, evitando demorar tempo no processo de procura do identificador correcto.</li>
-</ul>
-<p>Com este trabalho exploratório pretende-se:</p>
-<ol type="1">
-<li>comunicar com o “cliente” final (os mecânicos) para descrever o processo actual e identificar os pontos de atrito e o que pode ser melhorado</li>
-<li>identificar formas de acelerar a introdução dos dados da acção de manutenção, nomeadamente</li>
+<ol start="2" type="I">
+<li><p>Desafios Estratégicos no Ensino de Ciências Militares e de Segurança (4 minutos) A. Evolução dos conflitos e operações militares B. Novos contextos tecnológicos e operacionais C. Necessidade de adaptação e atualização do ensino</p></li>
+<li><p>Cibersegurança no Contexto Militar e de Segurança (5 minutos) A. Exploração da crescente ameaça cibernética B. Relevância da cibersegurança na proteção de informações e operações C. Desafios específicos relacionados à cibersegurança no ensino militar</p></li>
+<li><p>Inteligência Artificial nas Ciências Militares e de Segurança (5 minutos) A. Papel da inteligência artificial na análise de dados e tomada de decisões B. Benefícios da IA na detecção de ameaças e na otimização de operações C. Desafios e ética associados ao uso da IA no setor militar</p></li>
 </ol>
-<ul>
-<li>alternativas para introdução em computador</li>
-<li>como identificar mais rapidamente as peças que sofreram intervenção</li>
-<li>como identificar mais rapidamente o identificador correcto (e.g.&nbsp;árvore de decisão)</li>
-</ul>
-<p>Trabalho tangente:</p>
-<ul>
-<li>seria possível um pré-registo automático com base em visão computacional?</li>
-</ul>
+<p>V. Integração da Cibersegurança e Inteligência Artificial (3 minutos) A. Sinergias entre cibersegurança e IA no contexto militar B. Como a IA pode ser usada para melhorar a cibersegurança C. Estudos de caso de implementações bem-sucedidas</p>
+<ol start="6" type="I">
+<li><p>Estratégias para Lidar com os Desafios (4 minutos) A. Adaptação de currículos acadêmicos B. Investimento em pesquisa e desenvolvimento C. Treinamento contínuo de pessoal militar e de segurança</p></li>
+<li><p>Conclusão (2 minutos) A. Recapitulação dos principais pontos da apresentação B. Enfatizar a importância da preparação para os desafios tecnológicos e operacionais C. Encorajar a discussão e ação contínua</p></li>
+<li><p>Perguntas e Discussão (2 minutos) A. Abrir a sessão para perguntas e respostas B. Incentivar a interação e o debate com a audiência</p></li>
+</ol>
 
 
 </section>
