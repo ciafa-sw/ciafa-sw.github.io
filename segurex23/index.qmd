@@ -2,50 +2,35 @@
 title: “Os desafios estratégicos para o ensino das ciências militares e de segurança face aos novos contextos tecnológicos e operacionais”
 page-layout: full
 format:
+    revealjs:
+        output-file: segurex23_slides
+        format-links: true
+        reference-location: document
+        theme: [default, custom.scss]
     html:
         format-links: true
         toc: true
         toc-depth: 3
         anchor-sections: true
         smooth-scroll: true
-    revealjs:
-        output-file: segurex23_slides
-        format-links: true
-        reference-location: document
-        theme: [default, custom.scss]
 ---
 
 
+
 # Domínios de operação
-## XIX
+
+## Domínios de operação - XIX
 
 ![](assets/xix.png){width=300px}
 
-## XX
+## Domínios de operação - XX
 ![](assets/xx.png){width=300px}
 
-## XIX
-
-![Modernizing how we fight [^1]](assets/Multi-domain_operations,investmentPlan2020.png) 
-
-
-# Domínios de operação
-
-1. operational domains evolution
-2. muldi-domain operations, integration, holistic, multi threats on multiple domains simultaneously
-    - data
-    - information
-    - information in flow
-    - planning and operating across domains
-    - speed
-3. speed, the threat is as fast as its slowest component, our response is as fast as our slowest component -> autonomy as the fundamental game changer
-
 ::: {.notes}
-- séc. 19, dominio terrestre e maritimo
-- séc. 20, dominio aérea, e depois o espacial, inicio do potencial do ciberespaço
-- séc. 21, dominio ciberespaço cresce exponencialmente a sua dimensão
-- 
-
+1. operational domains evolution
+    - séc. 19, dominio terrestre e maritimo
+    - séc. 20, dominio aérea, e depois o espacial, inicio do potencial do ciberespaço
+    - séc. 21, dominio ciberespaço cresce exponencialmente a sua dimensão
 
 images
 - XIX land - https://www.esquire.com/style/a41725/the-epic-history-of-military-style/
@@ -58,13 +43,46 @@ images
 :::
 
 
----
 
-![Modernizing how we fight [^1]](assets/Multi-domain_operations,investmentPlan2020.png) 
+## Domínios de operação - XXI {auto-animate=true}
+
+![Modernizing how we fight [^multidomain]](assets/Multi-domain_operations,investmentPlan2020.png) 
+
+
+## Operações multi-domínio {auto-animate="true" auto-animate-easing="ease-in-out"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](assets/Multi-domain_operations,investmentPlan2020.png) 
+:::
+
+::: {.column width="40%"}
+
+- Dados
+- Informação - em fluxo
+- Planeamento e operações intra e entre domínios
+- Velocidade
+
+:::
+
+::::
 
 
 
-[^1]: Modernization — Modernizing how we fight: Future combat will require a different approach than what the Joint Force has previously taken. Multi-Domain Operations (MDO) will enable the Army to give the Joint Force a decisive advantage by forcing an enemy to confront multiple threats simultaneously from multiple domains. The MDO concept guides our entire modernization effort, describing the capabilities we need to compete and win on the future battlefield. --US Army (2020) AMERICA’S ARMY: READY NOW,INVESTING IN THE FUTURE FY19-21 accomplishments and investment plan
+::: {.notes}
+2. muldi-domain operations, integration, holistic, multi threats on multiple domains simultaneously
+    - data
+    - information
+    - information in flow
+    - planning and operating across domains
+    - speed
+3. speed, the threat is as fast as its slowest component, our response is as fast as our slowest component -> autonomy as the fundamental game changer
+
+:::
+
+
+[^multidomain]: Modernization — Modernizing how we fight: Future combat will require a different approach than what the Joint Force has previously taken. Multi-Domain Operations (MDO) will enable the Army to give the Joint Force a decisive advantage by forcing an enemy to confront multiple threats simultaneously from multiple domains. The MDO concept guides our entire modernization effort, describing the capabilities we need to compete and win on the future battlefield. --US Army (2020) AMERICA’S ARMY: READY NOW,INVESTING IN THE FUTURE FY19-21 accomplishments and investment plan
 
 ---
 
@@ -72,7 +90,7 @@ images
 
 [^2]: "The Indo-Asia Pacific and the Multi-domain Battle Concept" https://www.pacom.mil/Media/News/News-Article-View/Article/1125682/the-indo-asia-pacific-and-the-multi-domain-battle-concept/
 
-# Dados
+# Dados, Informação e os Sistemas de Decisão
 
 - explosão de dados
     - space
@@ -101,7 +119,7 @@ images
         - assimetria
     
 
-# Geopolitica? talvez não seja o contexto apropriado
+# Geopolitica
 
 - ideas do New Fire
 - ideas do Chip Wars
@@ -114,18 +132,107 @@ images
     - crimes de guerra, aplicação lei humanitária, ...
 - ia - ideias da prof.paola gaeta EU Lethal Autonomous Weapons Systems
 
-# educação
+# Educação
+
+## O plano
 
 > "Education should **prepare** yong people **for jobs that do not yet exist**, using **technologies that have not yet been invented**, to solve **problems of which we are not yet aware**"
 
+:::: {.columns}
 
-- o que sabemos, o que sabemos que não sabemos, o que não sabemos que não sabemos -> instigar espírito autodidata
-- velocidade da evolução é superior aos ciclos de formação
+::: {.column width="30%"}
+
+::: {.fragment}
+
+O que sabemos
+
+:::
+
+:::
+
+::: {.column width="30%"}
+
+::: {.fragment}
+
+O que sabemos que não sabemos
+:::
+
+:::
+
+::: {.column width="30%"}
+
+::: {.fragment}
+
+O que não sabemos que não sabemos
+
+:::
+
+:::
+
+::::
+
+
+--- 
+
+- Velocidade da evolução > duração ciclos de formação - o que vamos ensinar?
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+O que sabemos
+
+::: {.fragment}
+
+- atualizar os curriculos
+- manter as bases, à luz das mudanças constantes da atualiadade
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+O que sabemos que não sabemos
+
+::: {.fragment}
+
+- investimento na investigação
+- formação do corpo docente
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+O que não sabemos que não sabemos
+
+
+::: {.fragment}
+
+
+
+
+:::
+
+:::
+
+::::
+
+
+
+    - investimento na investigação, formação do corpo docente e atualização das técnicas de ensino
+
+
+::: {.notes}
+- Velocidade da evolução > duração ciclos de formação 
 - **O que vamos ensinar?**
     - atualizar os curriculos, retirando o que não é relevante e adicionando o que é
     - reinterpretar as bases que ensinamos agora à luz das mudanças constantes do contexto cientifico-tecnológico, socio-económico, político e militar
         - há conhecimento base que é sempre relevante, mas a sua aplicação muda ao longo do tempo
     - investimento na investigação, formação do corpo docente e atualização das técnicas de ensino
+:::
 
 ---
 
