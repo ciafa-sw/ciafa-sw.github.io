@@ -1,5 +1,7 @@
 ---
-title: “Os desafios estratégicos para o ensino das ciências militares e de segurança face aos novos contextos tecnológicos e operacionais”
+title: Oportunidades e desafios no ensino das ciências militares face aos novos contextos tecnológicos
+#title: “Os desafios estratégicos para o ensino das ciências militares e de segurança face aos novos contextos tecnológicos e operacionais”
+author: Capitão Diogo Silva
 page-layout: full
 format:
     revealjs:
@@ -14,7 +16,6 @@ format:
         anchor-sections: true
         smooth-scroll: true
 ---
-
 
 
 # Domínios de operação
@@ -59,10 +60,16 @@ images
 
 ::: {.column width="40%"}
 
+::: {.incremental}
+
+
 - Dados
-- Informação - em fluxo
-- Planeamento e operações intra e entre domínios
+- Informação em fluxo
 - Velocidade
+- Planeamento e operações intra e entre domínios
+
+:::
+
 
 :::
 
@@ -71,6 +78,16 @@ images
 
 
 ::: {.notes}
+- Dados
+    - Temos um dilúvio de dados provenientes das mais variadas fontes.
+    - No espaço temos cada vezez melhores sensores, que produzem dados com maior qualidade, e frequência
+    - No ciberespaço, os dados são produzidos em massa por organizações, empresas e pessoas individuais; muita da informação está disponível publicamente e pode ou não ter um impacto, ou ser relevante, para as operações militares
+    - Com o desenvolvimento de mais e melhores sistemas autónomos, a recolha de dados precisa de cada vez menos pessoas, e pode até ser autónoma
+    - MAS mais dados não signica um melhor conhecimento situacional do que se passa nos nossos teatros de operação, o que nos leva a falar de autonomia
+- **Informação em fluxo** E todos estes dados estão em constante fluxo, copiados, transmitidos, analisados, armazenados novamente
+- **Velocidade** Crecentemente, a tecnologia permite conduzir operações a um ritmo muito mais elevado. A velocidade da defesa é tão rápida como o seu elemento mais lento, mas a defesa como um todo não pode ser mais lenta que o ataque. Idem, quando estamos a pensar na ofensiva.
+- **Planeamento e execução intra e entre domínios**
+
 2. muldi-domain operations, integration, holistic, multi threats on multiple domains simultaneously
     - data
     - information
@@ -84,31 +101,122 @@ images
 
 [^multidomain]: Modernization — Modernizing how we fight: Future combat will require a different approach than what the Joint Force has previously taken. Multi-Domain Operations (MDO) will enable the Army to give the Joint Force a decisive advantage by forcing an enemy to confront multiple threats simultaneously from multiple domains. The MDO concept guides our entire modernization effort, describing the capabilities we need to compete and win on the future battlefield. --US Army (2020) AMERICA’S ARMY: READY NOW,INVESTING IN THE FUTURE FY19-21 accomplishments and investment plan
 
----
+
+
+## Interseção dos domínios {visibility="hidden"}
 
 ![Multi-domain Battle Concept [^2]](assets/original.jpg)
 
 [^2]: "The Indo-Asia Pacific and the Multi-domain Battle Concept" https://www.pacom.mil/Media/News/News-Article-View/Article/1125682/the-indo-asia-pacific-and-the-multi-domain-battle-concept/
 
-# Dados, Informação e os Sistemas de Decisão
+# Dados, Informação e os Sistemas de Decisão {visibility="hidden"}
 
-- explosão de dados
-    - space
-    - cyber
-    - Autonomous and Unmanned Systems
-    - redes de sensores
-- necessidade de extração de _actionable knowledge_ (IA, autonomia, formação do pessoal)
+- Explosão de dados
+    - Espaço
+    - Ciberespaço
+    - Sistemas autónomos (e.g. UAS)
+    - Redes de sensores
+    - ...
 
-# Cyber
+- Necessidade de extração de _actionable knowledge_ (IA, autonomia, formação do pessoal)
 
-- contexto cyber
-    - Exploração da crescente ameaça cibernética
-    - Relevância da cibersegurança na proteção de informações e operações
-    - Informação como _asset militar_
-- evolução das ameaças (número, complexidade, velocidade, IA)
+::: {.notes}
+- Temos um dilúvio de dados provenientes das mais variadas fontes.
+- No espaço temos cada vezez melhores sensores, que produzem dados com maior qualidade, e frequência
+- No ciberespaço, os dados são produzidos em massa por organizações, empresas e pessoas individuais; muita da informação está disponível publicamente e pode ou não ter um impacto, ou ser relevante, para as operações militares
+- Com o desenvolvimento de mais e melhores sistemas autónomos, a recolha de dados precisa de cada vez menos pessoas, e pode até ser autónoma
+- MAS mais dados não signica um melhor conhecimento situacional do que se passa nos nossos teatros de operação, o que nos leva a falar de autonomia
+:::
 
 
-# Autonomia | Desafios e oportunidades
+
+
+
+
+
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment}
+
+
+
+
+### Autonomia
+
+::: {.incremental}
+
+
+- Informação (análise, apoio à decisão, planeamento)
+- Robótica (DDD, democratização)
+- Armas autónomas vs. autonomia nas armas
+
+:::
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment}
+
+### Ciber
+
+::: {.incremental}
+
+- Informação como _asset_ militar
+- Superioridade no domínio ciber
+- Ameaças autónomas
+- Computação quântica
+
+:::
+
+:::
+
+:::
+
+::::
+
+
+
+::: {.notes}
+
+- informação
+    - Papel da inteligência artificial na análise de dados e tomada de decisões
+    - Benefícios da IA na detecção de ameaças e na otimização de operações
+
+- física
+    - DDD
+    - low cost, low knowledge, open source
+        - assimetriaial na análise de dados e tomada de decisões
+        - Benefícios da IA na detecção de ameaças e na otimização de operações
+
+    - Robótica
+        - Dull, Dirty, Dangerous (Missões aborrecidas (e.g. patrulhamento), Sujas (e.g. operação em áreas contaminadas) e Perigosas (e.g. operação em terreno hóstil))
+        - Os sistemas de topo estão cada vez mais avançados
+        - MAS sistemas suficientementes avançados estão cada vez mais baratos e ao alcance de qualquer um, com pouco conhecimento
+
+
+        - low cost, low knowledge, open source
+            - assimetria
+- Ciber
+    - A informação tem de ser vista como um asset militar, dado o seu papel determinante no planeamento e execução das operações; isto advém da crescente digitalização dos processos, com o seu potencial para maior eficiência; mas também da crescente digitalização dos processos dos oponentes, abrindo as portas para novos vectores de ataque
+    - Contudo isto quer dizer que a superioridade neste domínio é crucial
+        1. para garantir a boa utilização do domínio
+        2. para possibilitar operações ofensivas
+    - Riscos e ameaças
+        - a autonomia apresenta aqui um duplo papel de risco e oportunidade, pois pode permitir automatizar e respondar mais rapidamente a ataques, mas os ataques também podem ser autónomos; mais uma vez entra aqui em questão a velocidade das operações, e as defesas não podem ser mais lentas que as ferramentas ofensivas
+        - outra grande ameaça é a emergência da computação quântica, que promete disromper o status quo no que diz respeito às ferramentas criptográficas que são, hoje, amplamente usadas
+
+
+:::
+
+# Autonomia | Desafios e oportunidades {visibility="hidden"}
 
 - informação
     - Papel da inteligência artificial na análise de dados e tomada de decisões
@@ -119,51 +227,128 @@ images
         - assimetria
     
 
-# Geopolitica
+
+
+
+# Cyber {visibility="hidden"}
+
+- contexto cyber
+    - Exploração da crescente ameaça cibernética
+    - Relevância da cibersegurança na proteção de informações e operações
+    - Informação como _asset militar_
+- evolução das ameaças (número, complexidade, velocidade, IA)
+
+
+
+
+# Tangentes
+
+::: {.incremental}
+
+- Considerações geopolíticas na defesa
+- Utilização ética dos domínios e novas ferramentas
+
+:::
+
+
+::: {.notes}
+
+- Relacioandas com tudo o que falámos até agora estão 2 dimensões tangentes: geopolítica e ética.
+- Ao nível geopolítico temos de repensar o que significam fronteiras em novos domínios como o ciberespaço, e o que as nações podem ou não fazer.
+- Por outro lado, tecnologias emergentes e disruptivas como IA estão a criar uma nova corrida ao estado da arte, que, podendo iludir os espectadores, cria também uma corrida a recursos importantes como o acesso e a produção de capacidade de computação.
+
+- Já ao nível da ética, tal temos de atender ao que podemos ou não fazer nos novos domínios em que marcamos presença, e em como, onde e quando (e se) podemos usar ferramentas alimentadas pelas novas tecnologias emergentes, como IA - pensemos em armas autonomas mortiferas
+- Existe muito terreno para conquistar no que diz respeito ao uso justo e moral destas ferrametnas, e ainda não chegámos a um consenso a que possamos aderir, muito menos a uma atualização decisiva da Lei Internacional Humanitária no que diz respeito à utilização do ciberespaço, e muito menos para armas autónomas
+
+
+
+:::
+
+# Geopolitica {visibility="hidden"}
 
 - ideas do New Fire
 - ideas do Chip Wars
 - Cyber & IA & Chips
 
-# Ética
+
+
+
+
+
+
+# Ética {visibility="hidden"}
 
 - cyber - ideias palestra IUM
     - problema da atribuição
     - crimes de guerra, aplicação lei humanitária, ...
 - ia - ideias da prof.paola gaeta EU Lethal Autonomous Weapons Systems
 
-# Educação
 
-## O plano
 
-> "Education should **prepare** yong people **for jobs that do not yet exist**, using **technologies that have not yet been invented**, to solve **problems of which we are not yet aware**"
+
+
+
+
+
+
+
+
+# O que ensinar?
+
+
+> "Education should **prepare** yong people **for jobs that do not yet exist**, using **technologies that have not yet been invented**, to solve **problems of which we are not yet aware**" - Richard Riley
+
+## O que ensinar?
 
 :::: {.columns}
 
-::: {.column width="30%"}
+::: {.column width="33%"}
 
 ::: {.fragment}
 
-O que sabemos
+_**O que sabemos**_
+
+::: {.incremental}
+
+- Atualização dos currículos
+- Recontextualizar as bases
 
 :::
 
 :::
 
-::: {.column width="30%"}
+:::
+
+::: {.column width="33%"}
 
 ::: {.fragment}
 
-O que sabemos que não sabemos
+_**O que sabemos que não sabemos**_
+
+::: {.incremental}
+
+- Investigação
+- Formação dos docentes
+
+:::
+
 :::
 
 :::
 
-::: {.column width="30%"}
+::: {.column width="33%"}
 
 ::: {.fragment}
 
-O que não sabemos que não sabemos
+_**O que não sabemos que não sabemos**_
+
+::: {.incremental}
+
+- Competências
+- Espírito auto-didata
+
+
+:::
 
 :::
 
@@ -172,9 +357,26 @@ O que não sabemos que não sabemos
 ::::
 
 
---- 
 
-- Velocidade da evolução > duração ciclos de formação - o que vamos ensinar?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## O que ensinar?  {visibility="hidden"}
+
+
+
+- Velocidade da evolução > duração ciclos de formação - o que vamos ensinar? {visibility="hidden"}
 
 :::: {.columns}
 
@@ -234,10 +436,25 @@ O que não sabemos que não sabemos
     - investimento na investigação, formação do corpo docente e atualização das técnicas de ensino
 :::
 
----
 
 
-# Directiva estratégica FAP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Directiva estratégica FAP {visibility="hidden"}
 
 - [site](https://www.emfa.pt/paginas/fap/ficheiros/noticias/2023/Planeamento%20Estrategico%2022-25.pdf
 )
@@ -271,9 +488,21 @@ impacto nas plataformas aéreas de nova geração, sensores e no armamento.
 >LA4.2 – Desenvolver Sistemas de Informação modulares e resilientes com capacidade de evolução adaptativa, integrados com o domínio de ciberespaço assentes em modelos de gestão de redes e data centres derivados de arquiteturas modernas.
 
 
-# [SEGUREX - contexto](https://segurex.fil.pt/conferencias/)
+# [SEGUREX - contexto](https://segurex.fil.pt/conferencias/) {visibility="hidden"}
 
 > Painel 2 – Os desafios estratégicos para as ciências militares e da segurança face aos novos contextos tecnológicos e operacionais
 
 > Enquadramento:
 O incremento exponencial do conhecimento passível de ser vertido em tecnologias direcionadas para uso nos domínios da defesa e da segurança aportam a necessidade de se considerarem novos contextos estratégicos, tecnológicos e operacionais reclamando novas e diversificadas competências de comando. Constatação que decorre da observação de um ambiente global marcado por significativas mudanças nos contextos operacionais que reivindicam formações de base, quer com crescente componente interdisciplinar, quer com forte integração de tecnologias de ponta, para além do recurso a mais sofisticados conhecimentos de base para o desempenho das funções de defesa e segurança. Circunstâncias que reivindicam especial agilidade na conceção de currículos para a preparação de profissionais rapidamente adaptáveis a novas situações de comando e operação, sem perder de vista a dimensão ética que lhe está subjacente.
+
+
+
+> Conferência Os desafios estratégicos para as ciências militares e da segurança face aos novos contextos tecnológicos e operacionais, subordinado ao Tema Grandes desafios político-militares mundiais do futuro em matéria de Segurança e Defesa e seu impacto na ciência, na investigação e no ensino, que decorre no dia 10 de Outubro, entre as 11h45 e as 13h00, no Auditório Segurex, no Pavilhão 3 da Feira Internacional de Lisboa.
+
+
+# Perguntas moderador {visibility="hidden"}
+
+a. A    Mudanças mais significativa  que identificam estar  em curso nos Vosso Contextos Operacionais
+ 
+b. As Tecnologias que poderão ser mais relevantes  no futuro quer pela reforço de capacidades que podem oferecer a adversários , quer pelo papel decisivo  que tenham no ganho de  superioridade estratégica e tática face a esses adversários 
+ 
