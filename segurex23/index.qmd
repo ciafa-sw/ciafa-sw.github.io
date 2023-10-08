@@ -1,7 +1,7 @@
 ---
-title: Oportunidades e desafios no ensino das ciências militares face aos novos contextos tecnológicos
+#title: Oportunidades e desafios no ensino das ciências militares face aos novos contextos tecnológicos
 #title: “Os desafios estratégicos para o ensino das ciências militares e de segurança face aos novos contextos tecnológicos e operacionais”
-author: Capitão Diogo Silva
+#author: Capitão Diogo Silva
 page-layout: full
 format:
     revealjs:
@@ -16,6 +16,28 @@ format:
         anchor-sections: true
         smooth-scroll: true
 ---
+
+
+# Oportunidades e desafios no ensino das ciências militares face aos novos contextos tecnológicos {style="text-align: center;"}
+
+Capitão Diogo Silva 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](assets/fap.png){width=300px}
+
+:::
+
+::: {.column width="50%"}
+
+![](assets/AFA.png){width=225px}
+
+:::
+
+::::
+
 
 
 # Domínios de operação
@@ -357,6 +379,26 @@ _**O que não sabemos que não sabemos**_
 ::::
 
 
+
+# Oportunidades e desafios no ensino das ciências militares face aos novos contextos tecnológicos {style="text-align: center;"}
+
+Capitão Diogo Silva 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](assets/fap.png){width=300px}
+
+:::
+
+::: {.column width="50%"}
+
+![](assets/AFA.png){width=225px}
+
+:::
+
+::::
 
 
 
