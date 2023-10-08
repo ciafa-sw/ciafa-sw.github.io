@@ -5,11 +5,11 @@ author: Capitão Diogo Silva
 page-layout: full
 format:
     revealjs:
-        output-file: segurex23_slides
         format-links: true
         reference-location: document
         theme: [default, custom.scss]
     html:
+        output-file: segurex23_doc
         format-links: true
         toc: true
         toc-depth: 3
