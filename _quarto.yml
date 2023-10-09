@@ -10,8 +10,8 @@ website:
     left:
       - text: ideas
         file: ideas.qmd
-      - text: research
-        file: research/index.qmd
+      # - text: research
+      #   file: research/index.qmd
     right:
       - icon: link
         text: AFA

@@ -18,7 +18,7 @@ page-layout: full
   - Robust UAS protocols against cyber attacks (takeover, etc.) 
   - Development of online path planning module for multirotor UAV, to create robust paths against antiUAS systems (kinectic, laser) 
   - Use of cognitive radios with SDR to increase robustness of Communications and defeat antiUAS 
-- FOD (follow up Almeida) 
+- FOD (follow up [João Almeida](https://www.researchgate.net/profile/Goncalo-Cruz-2/publication/368568586_Application_of_Deep_Learning_to_the_Detection_of_Foreign_Object_Debris_at_Aerodromes'_Movement_Area/links/64bbf6fb8de7ed28bab83ce0/Application-of-Deep-Learning-to-the-Detection-of-Foreign-Object-Debris-at-Aerodromes-Movement-Area.pdf){target="_blank"}) 
   - [repeat work with new array of sensors](#repeat-work-with-new-array-of-sensors)
   - [Depth estimation FOD](#depth-estimation-fod)
 - Marker based localization (follow-up J. Rocha)
