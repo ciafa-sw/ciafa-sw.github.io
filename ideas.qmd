@@ -28,12 +28,12 @@ page-layout: full
 - RL-based autolanding controller for low-cost VTOL UAV
 - RL-based controller for tail sitter (tangente R. Rocha)
 - [HMI registo ações manutenção](#hmi-registo-ações-manutenção)
-- Autonomous Unmanned Ground Vehicle (AUGV)
-  - Use case: landing for drone (Holybro, good for testing auto landing system)
-  - Mobility
-  - Perception
-  - Electronics
-  - 
+- Autonomous Unmanned Ground Vehicle (AUGV) (POC: CAP Silva)
+  - Use case: landing for drone (Holybro, good for testing auto landing system in mobile targets)
+  - Mechanical eng. (construction, mobility, ...)
+  - Perception (cameras, depth, LIDAR, ...)
+  - Electronics (energy management, sensors, actuactors, ...)
+  - Software development (architecture, communication, middleware, integration, ...)
 
 
 # Miniprojectos
@@ -44,7 +44,6 @@ page-layout: full
 - Auto shutdown and boot up of PCs (POC: CAP Silva)
   - Raspberry UPS (hardware, electronics)
   - Dashboard for configuration and control (Python, webdevelopment)
-- UGV for UAV landing (connects with Rocha follow-up) (POC: CAP Silva)
 - Low cost gimbal | RaspiCam | 3d printed | servo/BLDC
   - 3d model and 3d printing of support (POC: TEN Vasco Coelho / CAP Silva)
   - Controller (software, ROS, Python, POC: CAP Silva)
