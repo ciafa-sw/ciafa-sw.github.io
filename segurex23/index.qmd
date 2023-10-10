@@ -8,6 +8,7 @@ format:
         format-links: true
         reference-location: document
         theme: [default, custom.scss]
+#        embed-resources: true
     html:
         output-file: segurex23_doc
         format-links: true
@@ -40,13 +41,11 @@ Capitão Diogo Silva
 
 
 
-# Domínios de operação
-
-## Domínios de operação - XIX
+## Domínios de operação - XIX {visibility="hidden"}
 
 ![](assets/xix.png){width=300px}
 
-## Domínios de operação - XX
+## Domínios de operação XX
 ![](assets/xx.png){width=300px}
 
 ::: {.notes}
@@ -67,7 +66,7 @@ images
 
 
 
-## Domínios de operação - XXI {auto-animate=true}
+## Domínios de operação XXI {auto-animate=true}
 
 ![Modernizing how we fight [^multidomain]](assets/Multi-domain_operations,investmentPlan2020.png) 
 
@@ -175,7 +174,6 @@ images
 
 - Informação (análise, apoio à decisão, planeamento)
 - Robótica (DDD, democratização)
-- Armas autónomas vs. autonomia nas armas
 
 :::
 
@@ -275,12 +273,26 @@ images
 
 ::: {.notes}
 
+- ao nível da defesa, como analisar a evolução tecnológica
+- corrida a tecnologias de valor estratégico
+- que implica corrida a matéria prima e equipamento também de valor estratégico
+- para garantir acesso e produção destes equipamentos
+
+
+- o que podemos ou não fazer
+- o que nos diz a Lei Internacional Humanitária
+- pouco, em áreas de ponta
+- e.g. como pensar em autonomia em armas letais - nas armas ou armas autónomas
+
+
 - Relacioandas com tudo o que falámos até agora estão 2 dimensões tangentes: geopolítica e ética.
 - Ao nível geopolítico temos de repensar o que significam fronteiras em novos domínios como o ciberespaço, e o que as nações podem ou não fazer.
 - Por outro lado, tecnologias emergentes e disruptivas como IA estão a criar uma nova corrida ao estado da arte, que, podendo iludir os espectadores, cria também uma corrida a recursos importantes como o acesso e a produção de capacidade de computação.
 
 - Já ao nível da ética, tal temos de atender ao que podemos ou não fazer nos novos domínios em que marcamos presença, e em como, onde e quando (e se) podemos usar ferramentas alimentadas pelas novas tecnologias emergentes, como IA - pensemos em armas autonomas mortiferas
 - Existe muito terreno para conquistar no que diz respeito ao uso justo e moral destas ferrametnas, e ainda não chegámos a um consenso a que possamos aderir, muito menos a uma atualização decisiva da Lei Internacional Humanitária no que diz respeito à utilização do ciberespaço, e muito menos para armas autónomas
+- Armas autónomas vs. autonomia nas armas
+
 
 
 
