@@ -560,3 +560,10 @@ a. A    Mudanças mais significativa  que identificam estar  em curso nos Vosso 
  
 b. As Tecnologias que poderão ser mais relevantes  no futuro quer pela reforço de capacidades que podem oferecer a adversários , quer pelo papel decisivo  que tenham no ganho de  superioridade estratégica e tática face a esses adversários 
  
+
+# mais recursos {visibility="hidden"}
+
+
+- https://wavellroom.com/2022/01/26/mddo/
+- Defense Primer: Army Multi-Domain Operations (MDO)
+    - https://sgp.fas.org/crs/natsec/IF11409.pdf

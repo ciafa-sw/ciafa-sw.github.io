@@ -71,23 +71,23 @@ A análise estatistica sempre teve um lugar nas caixas de ferramentas dos analis
 
 
 Paralelamente, a autonomia tem vindo a ter cada vez mais expressão em domónios encorpados, onde **sistemas robóticos** fazem cada vez mais e melhor.
-Este sistemas autónomos podem dar uma grande contribuição numa tipologia de missões especifica - as chamadas **missões DDD**:
+Este sistemas autónomos podem dar uma grande contribuição numa tipologia de missões especifica - as chamadas **missões DDD** (_dull_, _dirty_, _dangerous_):
 
-- o primeiro "D" refere-se a missões aborrecidas (_dull_), e.g. patrulhamento marítimo;
-- o segundo refere-se a missões "sujas" (_dirty_), e.g. operação em ambientes contaminados;
-- o último refere-se a missões perigosas (_dangerous_), e.g. operação em ambiente hóstil.
+- missões aborrecidas (_dull_) são as que envolvem tarefas monotónas e repetitivas, e.g.patrulhamento marítimo, onde é necessário foco prolongado no tempo;
+- missões "sujas" (_dirty_) referem-se a operações em ambientes não adequados para humanos, e.g. áreas radioativas;
+- missões perigosas (_dangerous_) são as que apresentam um risco à nossa integridade, e.g. operar em ambiente hóstil.
 
-Desta forma, estes sistemas permitem minorar o risco colocado aos recursos humanos, que são recursos não renováveis e de mais díficil substituição.
+Desta forma, estes sistemas permitem, por um lado, otimizar eficiência, e por outro minorar o risco colocado aos recursos humanos.
+Uma maior integração e complementariedade homem-máquina, visando uma operação mista e resiliente, tira partido dos pontos fortes de cada um, enquanto se colmata as suas vulnerabilidades.
 
 
-E as capacidades avançadas que estes sistemas robóticos apresentem com cada vez mais frequença já não estão apenas ao alcance de organizações e empresas com grande capacidade de investimento.
-Muito pelo contrário, dissiminação livre do conhecimento e aos baixos custos permitidos pela globalização garantiram a **democratização de tecnologias de autonomia**, e é atualmente possível comprar sistemas aéreos com capacidade de autonomia nos locais mais banais, por vezes comercializados como brinquedos.
+E as capacidades avançadas que estes sistemas robóticos apresentem, cada vez mais frequentemente, já não estão apenas ao alcance de organizações e empresas com grande capacidade de investimento.
+Muito pelo contrário, a dissiminação livre do conhecimento e aos baixos custos permitidos pela globalização garantiram a **democratização de tecnologias de autonomia**, e é atualmente possível comprar sistemas aéreos com funcionalidades de autonomia nos locais mais banais, comercializados como bens de consumo eletrónicos, ou até brinquedos.
 Estes sistemas podem ser adquiridos por qualquer pessoa, sem identificação, formação específica ou compromisso nos limites à sua utilização.
-Adicionalmente, estes sistemas comerciais de baixo custo podem ser facilmente armados e utilizados em contextos operacionais.
-Este cenário é precisamente o que está a acontecer na guerra da Ucrânia.
+E estes sistemas comerciais de baixo custo podem ser facilmente armados e utilizados em contextos operacionais, precisamente o que está a acontecer na guerra da Ucrânia.
 
-Adicionalmente, qualquer pessoa consegue, sem conhecimentos técnicos avançados, contruir um destes sistemas seguindo tutoriais simples e de livre acesso, usando apenas componentes de baixo custo e facilmente adquiridos.
-Estes mesmos sistemas de baixo custo podem ser programados e dotados de maior capacidade de autonomia com mais algum conhecimento técnico, não sendo contudo necessário o investimento de milhões e o envolvimento de largas equipas de engenheiros como tradicionalmente acontece no complexo militar-industrial.
+Adicionalmente, está ao alcance do cidadão comum, sem conhecimentos técnicos avançados, contruir um destes sistemas seguindo tutoriais simples e de livre acesso, usando componentes de baixo custo e facilmente adquiridos.
+Estes mesmos sistemas de baixo custo podem ser programados e dotados de maior capacidade de autonomia por individuos com maior capacidade técnica, não sendo contudo necessário o investimento de milhões e o envolvimento de largas equipas de engenheiros como tradicionalmente acontece no complexo militar-industrial.
 
 
 # Integração no ciberespaço
@@ -105,16 +105,20 @@ O seu papel determinante na sociedade significa que temos de garantir a **suprem
 Isto traduz-se pela nossa habilidade em ter acesso e poder usar o ciberespaço para os interesses nacionais.
 Mas também significa que, idealmente, conseguimos projectar o nosso poder cibernético para acções ofensivas, em caso de necessidade.
 
+Existem, contudo, riscos e ameaças emergentes.
+A autonomia já foi discutida, mas merece especial menção nesta aplicação particular.
+Estamos, ainda, numa fase de assimilar o impacto que tecnologias avançandas, mas de fácil acesso, como o ChatGPT têm na nossa sociedade, nas mais variadas áreas.
+Não obstante, o progresso não pára, e hoje já temos os ChatGPTs dos criminosos[^evilgpt], que facilitam e ajudam a automatizar o processo de criação software malicioso, campanhas de cibercrime, entre outros.
+Esta é uma tendência que não se irá reverter, dada a ubiquidade e baixa barreira de entrada para utilização deste tipo de ferramentas.
+Pelas mesmas razões, as nossas cadeias de ciberdefesa devem, também, integrar cada vez mais mecanismos de automação para monitorização e análise de ataques e ameaças, identificação de falhas de segurança e geração de propostas de reparação, entre outras tarefas que fazem parte do quotidiano dos profisisonais e investigadores da área.
 
+A outra ameaça é a computação quântica.
+O tipo de computadores que irá permitir a aplicação útil deste tipo de computação está cada vez mais perto de ser conseguido.
+Vários grupos no mundo competem para o desenvolvimento do primeiro computador quântico com uma dimensão suficiente para aplicações práticas.
+Estes computadores apresentam-se como uma ameaça séria para uma grande variadade de tipos de criptografia[^quantum], que são amplamente usados, tanto em contextos civis como militares.
 
-
-- autonomia no ciberespaço TODO
-- computação quântica TODO
-
-- Riscos e ameaças
-    - a autonomia apresenta aqui um duplo papel de risco e oportunidade, pois pode permitir automatizar e respondar mais rapidamente a ataques, mas os ataques também podem ser autónomos; mais uma vez entra aqui em questão a velocidade das operações, e as defesas não podem ser mais lentas que as ferramentas ofensivas
-    - outra grande ameaça é a emergência da computação quântica, que promete disromper o status quo no que diz respeito às ferramentas criptográficas que são, hoje, amplamente usadas
-
+[^evilgpt]: https://www.wired.co.uk/article/chatgpt-scams-fraudgpt-wormgpt-crime
+[^quantum]:https://www.techtarget.com/searchdatacenter/feature/Explore-the-impact-of-quantum-computing-on-cryptography
 
 
 # Tangentes: geopolítica e ética
@@ -144,14 +148,13 @@ Mas o uso destas tecnologias em situações críticas, onde a vida e morte estã
 Sistemas de armas autónomos letais podem apresentar enormes vantagens táticas na condução da guerra, mas muitas questões não têm respostas claras.
 De quem é a responsabilidade quando o sistema erra nas suas decisões?
 Como é que estes sistemas influenciam a nossa forma de pensar sobre a guerra? Tornar-se-á mais frequente? Mais ou menos humana?
-O Secretário-Geral da ONU e o Presidente do Comité Internacional da Cruz Vermelha já fizeram um apelo conjunto [^ban_laws] à proibição deste tipo de armas.
+O Secretário-Geral da ONU e o Presidente do Comité Internacional da Cruz Vermelha já fizeram um apelo conjunto[^banlaws] à proibição deste tipo de armas.
 
 
 
 [^chatgpt_italy]: https://www.bbc.com/news/technology-65139406
 [^data_japan]: https://petapixel.com/2023/06/05/japan-declares-ai-training-data-fair-game-and-will-not-enforce-copyright/
-^[ban_laws]: In a joint appeal with the President of the International Committee of the Red Cross (ICRC), Mirjana Spoljaric, the leaders urged countries to establish specific prohibitions and restrictions on autonomous weapon systems “to preserve human control over the use of force” and protect humanity.
-
+[^banlaws]: https://www.icrc.org/en/document/joint-call-un-and-icrc-establish-prohibitions-and-restrictions-autonomous-weapons-systems
 
 
 # Ensino
@@ -196,6 +199,3 @@ Em todo o momento, o militar contrastará os novos contextos cientificos, tecnol
 
 
 
-- https://wavellroom.com/2022/01/26/mddo/
-- Defense Primer: Army Multi-Domain Operations (MDO)
-    - https://sgp.fas.org/crs/natsec/IF11409.pdf
