@@ -1,7 +1,7 @@
 ---
 title: "CIAFA"
 #subtitle: Research engineer
-#image: profile.svg
+image: ciafa.jpg
 page-layout: full
 about:
   template: trestles
@@ -14,4 +14,14 @@ about:
       href: https://github.com/ciafa-sw
 ---
 
+	
+O Centro de Investigação da Academia da Força Aérea (CIAFA) é uma unidade de investigação científica sediada nas instalações na Academia da Força Aérea.
 
+ 
+Tem como missão:
+
+• Realizar atividades de ID&I de natureza aeronáutica de interesse para a Força Aérea;
+ 
+• Apoiar os Ciclos de Estudos ministrados na AFA;
+ 
+•Assegurar a ligação entre a Força Aérea, o Ministério da Defesa e parceiros da Base Tecnológica e Industrial da Defesa e do Sistema Científico e Tecnológico Nacional no âmbito das atividades de ID&I na área da Defesa; 
