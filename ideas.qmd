@@ -50,7 +50,11 @@ page-layout: full
   - Sources:
     - https://hackaday.com/2019/08/19/diy-gimbal-for-the-raspberry-pi-camera/
     - https://thepihut.com/products/pan-tilt-platform-for-official-raspberry-pi-camera-module
-- Instrumentação da bancada de testes de propulsão de motores (POC: TEN Coelho)
+- Instrumentação da bancada de testes de propulsão de motores elétricos (POC: TEN Coelho)
+  - Calibração da bancada
+  - Instrumentação (leitura de força, torque e rpm)
+  - Criação de um interface minimalista (GUI) para fácil utilização
+  - Validação com ensaios estáticos e em túnel de vento
 
 
 # repeat work with new array of sensors
