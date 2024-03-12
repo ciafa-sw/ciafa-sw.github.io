@@ -55,6 +55,9 @@ page-layout: full
   - Instrumentação (leitura de força, torque e rpm)
   - Criação de um interface minimalista (GUI) para fácil utilização
   - Validação com ensaios estáticos e em túnel de vento
+- [Software planeamento missão DJI](#software-planeamento-missão-dji) (Javascript ou outra linguagem para front-end)
+- [Caixa custom electronica para docking station](#caixa-custom-electronica-para-docking-station) (modulação e impressão 3D)
+- [Caixa 3D para bateria de rádio aeronáutico](#caixa-3d-para-bateria-de-rádio-aeronáutico) (modulação e impressão 3D)
 
 
 # repeat work with new array of sensors
@@ -89,3 +92,50 @@ Trabalho tangente:
 - seria possível um pré-registo automático com base em visão computacional?
 
 
+
+
+# Software planeamento missão DJI
+
+- Enquadramento
+  - Atualmente o CIAFA cria os planos de voo para as plataformas DJI nos própios comandos.
+  - Este processo não é o mais amigável, e acaba por ser mais "fechado".
+  - Existem programas que permitem fazer este planeamento, mas são pagos.
+  - A ALF María Monteiro identificou que é possível criar os planos de voo fora do comandos, usando o formato aberto KML (Keyhole Markup Language).
+  - Já foi feito trabalho preliminar para a criação de planos de voo com capacidades não disponíveis no comando da DJI. Contudo, o processo atual não está integrado numa ferramenta única.
+- Objectivo
+  - Criar um software baseado em tecnologias web, para criar planos de voo, incluindo acções específicas aos drones da DJI.
+  - _Features_
+    * Apresentar um mapa
+    * Permitir selecionar pontos no mapa (waypoints para navegação do drone)
+    * Definição da altitude e atitude do drone nos waypoints
+    * Definição de acções em cada waypoint (e.g. tirar fotografia)
+    * Definição da orientação da gimbal da câmara
+    * 
+- Info útil
+  * [leafletjs](https://leafletjs.com/)
+  * [OpenLayers](https://openlayers.org/)
+  * [MapLibre](https://maplibre.org/)
+  * [KML](https://en.wikipedia.org/wiki/Keyhole_Markup_Language)
+
+
+
+# Caixa custom electronica para docking station
+
+- O ASP Rêgo projectou e construiu uma docking station para um drone.
+- Atualmente, os componentes estão dispostos na docking station sem uma caixa adequada.
+- Objetivos
+  * Desenhar caixa para acomodar os diversos componentes
+  * Imprimir caixa
+  * Instalar caixa e testar o mecanismo de abertura
+
+
+# Caixa 3D para bateria de rádio aeronáutico
+
+- Enquadramento
+  * A bateria de um rádio aeronáutico está inoperacional e não existe spare.
+  * O rádio foi testado com sucesso com outra bateria, mas não tem as dimensões nem os conectores correctos.
+- Objectivos
+  * Modular um adaptador que
+    + encaixe no rádio aeronáutico
+    + faça a conversão dos conectores do rádio para um conector standard, e.g. XT60, T-plug
+    + segure baterias compatíveis

@@ -206,6 +206,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Criação de um interface minimalista (GUI) para fácil utilização</li>
 <li>Validação com ensaios estáticos e em túnel de vento</li>
 </ul></li>
+<li><a href="#software-planeamento-missão-dji">Software planeamento missão DJI</a> (Javascript ou outra linguagem para front-end)</li>
+<li><a href="#caixa-custom-electronica-para-docking-station">Caixa custom electronica para docking station</a> (modulação e impressão 3D)</li>
+<li><a href="#caixa-3d-para-bateria-de-rádio-aeronáutico">Caixa 3D para bateria de rádio aeronáutico</a> (modulação e impressão 3D)</li>
 </ul>
 </section>
 <section id="repeat-work-with-new-array-of-sensors" class="level1">
@@ -244,6 +247,71 @@ ul.task-list li input[type="checkbox"] {
 <p>Trabalho tangente:</p>
 <ul>
 <li>seria possível um pré-registo automático com base em visão computacional?</li>
+</ul>
+</section>
+<section id="software-planeamento-missão-dji" class="level1">
+<h1>Software planeamento missão DJI</h1>
+<ul>
+<li>Enquadramento
+<ul>
+<li>Atualmente o CIAFA cria os planos de voo para as plataformas DJI nos própios comandos.</li>
+<li>Este processo não é o mais amigável, e acaba por ser mais “fechado”.</li>
+<li>Existem programas que permitem fazer este planeamento, mas são pagos.</li>
+<li>A ALF María Monteiro identificou que é possível criar os planos de voo fora do comandos, usando o formato aberto KML (Keyhole Markup Language).</li>
+<li>Já foi feito trabalho preliminar para a criação de planos de voo com capacidades não disponíveis no comando da DJI. Contudo, o processo atual não está integrado numa ferramenta única.</li>
+</ul></li>
+<li>Objectivo
+<ul>
+<li>Criar um software baseado em tecnologias web, para criar planos de voo, incluindo acções específicas aos drones da DJI.</li>
+<li><em>Features</em>
+<ul>
+<li>Apresentar um mapa</li>
+<li>Permitir selecionar pontos no mapa (waypoints para navegação do drone)</li>
+<li>Definição da altitude e atitude do drone nos waypoints</li>
+<li>Definição de acções em cada waypoint (e.g.&nbsp;tirar fotografia)</li>
+<li>Definição da orientação da gimbal da câmara</li>
+<li></li>
+</ul></li>
+</ul></li>
+<li>Info útil
+<ul>
+<li><a href="https://leafletjs.com/">leafletjs</a></li>
+<li><a href="https://openlayers.org/">OpenLayers</a></li>
+<li><a href="https://maplibre.org/">MapLibre</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Keyhole_Markup_Language">KML</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="caixa-custom-electronica-para-docking-station" class="level1">
+<h1>Caixa custom electronica para docking station</h1>
+<ul>
+<li>O ASP Rêgo projectou e construiu uma docking station para um drone.</li>
+<li>Atualmente, os componentes estão dispostos na docking station sem uma caixa adequada.</li>
+<li>Objetivos
+<ul>
+<li>Desenhar caixa para acomodar os diversos componentes</li>
+<li>Imprimir caixa</li>
+<li>Instalar caixa e testar o mecanismo de abertura</li>
+</ul></li>
+</ul>
+</section>
+<section id="caixa-3d-para-bateria-de-rádio-aeronáutico" class="level1">
+<h1>Caixa 3D para bateria de rádio aeronáutico</h1>
+<ul>
+<li>Enquadramento
+<ul>
+<li>A bateria de um rádio aeronáutico está inoperacional e não existe spare.</li>
+<li>O rádio foi testado com sucesso com outra bateria, mas não tem as dimensões nem os conectores correctos.</li>
+</ul></li>
+<li>Objectivos
+<ul>
+<li>Modular um adaptador que
+<ul>
+<li>encaixe no rádio aeronáutico</li>
+<li>faça a conversão dos conectores do rádio para um conector standard, e.g.&nbsp;XT60, T-plug</li>
+<li>segure baterias compatíveis</li>
+</ul></li>
+</ul></li>
 </ul>
 
 
