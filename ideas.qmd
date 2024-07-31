@@ -58,7 +58,7 @@ page-layout: full
 - [Software planeamento missão DJI](#software-planeamento-missão-dji) (Javascript ou outra linguagem para front-end)
 - [Caixa custom electronica para docking station](#caixa-custom-electronica-para-docking-station) (modulação e impressão 3D)
 - [Caixa 3D para bateria de rádio aeronáutico](#caixa-3d-para-bateria-de-rádio-aeronáutico) (modulação e impressão 3D)
-
+- [Automated design of 3D printed key tags](#automated-design-of-3d-printed-key-tags) (modulação paramétrica e impressão 3D)
 
 # repeat work with new array of sensors
 
@@ -139,3 +139,10 @@ Trabalho tangente:
     + encaixe no rádio aeronáutico
     + faça a conversão dos conectores do rádio para um conector standard, e.g. XT60, T-plug
     + segure baterias compatíveis
+
+
+
+# Automated design of 3D printed key tags
+
+- Utilizador introduz nome da etiqueta da chave (podem ser várias etiquetas, e.g. 1 nome por linha de um ficheiro de texto).
+- Programa cria ficheiro STL pronto a imprimir em impressora 3D.
