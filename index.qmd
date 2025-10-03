@@ -25,3 +25,13 @@ Tem como missão:
 • Apoiar os Ciclos de Estudos ministrados na AFA;
  
 •Assegurar a ligação entre a Força Aérea, o Ministério da Defesa e parceiros da Base Tecnológica e Industrial da Defesa e do Sistema Científico e Tecnológico Nacional no âmbito das atividades de ID&I na área da Defesa; 
+
+
+
+**Trabalhos passados**:
+
+- Criação de um simulador de voo híbrido, de realidade virtual e mista, e proposta de adaptação do Syllabus de instrução de voo [link](https://ciafa.academiafa.edu.pt/sim_mr/)
+- Implementação de sistema de localização para navegação sem recurso a GNSS [link](https://ciafa.academiafa.edu.pt/Sistema_de_localizacao_SLAM/)
+- Aplicação de Machine Learning na Previsão e Redução de Custos com Combustível na Força Aérea Portuguesa [link](https://ciafa.academiafa.edu.pt/fuel_pred/)
+- Impact of Synthetic Images in the Training of Neural Networks for Airborne Vessel Segmentation [link](https://ciafa.academiafa.edu.pt/synthetic_vessel_detection/)
+
